@@ -65,30 +65,34 @@ button:active {
     transform: scale(0.95);
 }
 
-button:nth-child(4n) {
-    background: #ff9500;
-    color: white;
-}
-
-button:nth-child(4n):hover {
-    background: #e07b00;
-}
-
-/* Clear and Equal Button */
-button:nth-child(1) {
+.clear {
     background: #ff3b30;
     color: white;
 }
 
-button:nth-child(1):hover {
+.clear:hover {
     background: #d32f2f;
 }
 
-button:nth-child(17) {
-    background: #34c759;
+.operator {
+    background: #ff9500;
     color: white;
 }
 
-button:nth-child(17):hover {
+.operator:hover {
+    background: #e07b00;
+}
+
+.equal {
+    background: #34c759;
+    color: white;
+    grid-column: span 2;
+}
+
+.equal:hover {
     background: #2a9e47;
+}
+
+.zero {
+    grid-column: span 2;
 }
