@@ -1,16 +1,15 @@
 function appendToDisplay(value) {
-    document.getElementById("display").value += value;
+    document.getElementById('display').value += value;
 }
 
 function clearDisplay() {
-    document.getElementById("display").value = "";
+    document.getElementById('display').value = '';
 }
 
 function calculateResult() {
     try {
-        document.getElementById("display").value = eval(document.getElementById("display").value);
+        document.getElementById('display').value = eval(document.getElementById('display').value);
     } catch (error) {
-        alert("Invalid input");
+        document.getElementById('display').value = 'Error';
     }
 }
-console.log("Calculator script loaded!");
