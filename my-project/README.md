@@ -1,6 +1,6 @@
 # Simple Calculator
 
-This is a simple calculator web app built using [your tech stack – e.g., HTML, CSS, JavaScript].
+This is a simple calculator web app built using HTML, CSS, JavaScript.
 
 ## Features
 
