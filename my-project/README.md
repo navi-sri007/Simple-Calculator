@@ -14,7 +14,8 @@ This is a simple calculator web app built using [your tech stack – e.g., HTML,
    ```bash
     git clone https://github.com/navi-sri007/Simple-Calculator.git
 
-2.Screenshot:
+2.Working Model:
+https://navi-sri007.github.io/Simple-Calculator/
 
 3.Author
 Navi Sri – [GitHub Profile](https://github.com/navi-sri007)
